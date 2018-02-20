@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|EB+Garamond|Indie+Flower|Josefin+Sans|Oswald');
+
+body{
+    background:url("https://www.mybigskystrong.com/images/Montana1.jpg") no-repeat center center fixed;
+
+    background-size: cover;
+
+
+}
+
+#nutrition_header_container{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+#menu_text_container{
+    position: absolute;
+    padding: 34px;
+}
+#menu_text{
+    font-size: 30px;
+}
+#menu_text:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#nutrition_text_container{
+    width: 100%;
+}
+#nutrition_text{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 17px;
+}
+
+
+
+#menu_navigation_container{
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    margin-left: -200px;
+}
+
+.nav_div{
+	color:white;
+    font-size: 25px;
+    padding: 4px;
+    border: 0px;
+    background: none;
+    width: 100%;
+    text-align: center;
+}
+.nav_div:hover{
+    background-color: rgba(0,0,0,.5);
+    cursor: pointer;
+}
+
+#home_nav_div{
+
+}
+schedules_nav_div{
+
+}
+reviews_nav_div{
+
+}
+recipies_nav_div{
+
+}
+
+
+.nutrition_section{
+    margin-top: 100px;
+    background: rgba(0,0,0,.8);
+    border-radius: 20px;
+    border: 2px solid white;
+
+}
+.weight_loss_section{
+    margin-top: 50px;
+    background: rgba(0,0,0,.8);
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+
+
+h2.sectionTitle{
+	text-align:center;
+	color: white;
+	padding: 10px;
+    font-family: 'Oswald',sans-serif;
+    font-size: 200%;
+    text-decoration: underline;
+    margin: 0px;
+}
+p.sectionParagraph{
+	color: white;
+	padding: 20px;
+	margin: 0px;
+    font-family: 'Indie Flower',sans-serif;
+    font-size: 20px
+
+}
+h2.footer{
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+img.comodo{
+	float: right;
+}
+.myNutritionSection{
+    margin-top: 300px
+}
